@@ -8,13 +8,11 @@ $(document).ready(function(){
       position = {},
       nav = $('body > .topbar li a');
 	  
-	  console.log(nav);
       var targets = nav.map(function () {
         return $(this).attr('href');
       });
-	  console.log(targets);
+
       var offsets = $.map(nav, function (id) {
-		console.log(id);
         return $(id).offset().top;
       });
 

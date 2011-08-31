@@ -4,11 +4,10 @@
     port : 5984,
     db : "sample"
   },
-  designDocName : "_design/app",
   test-couch : {
     host : "ecko-it.iriscouch.com",
     port : "5984",
-    db : "sample",
+    db : "testsample",
     username : "test"
   },
   stages : {

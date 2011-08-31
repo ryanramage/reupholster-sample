@@ -1,9 +1,22 @@
 {
-    "couch":{"host":"localhost","port":5984,"db":"sample"},
-    "designDocName" : "_design/app",
-    "test-couch" : {"host" : "ecko-it.iriscouch.com", "port" : "5984", "db" : "sample", "username" : "test"},
-    "stages" : {
-        "qa" :  {"host" : "ecko-it.iriscouch.com", "port" : "5984", "db" : "sampleqa", "username" : "test"}
+  couch : {
+    host : "localhost",
+    port : 5984,
+    db : "sample"
+  },
+  designDocName : "_design/app",
+  test-couch : {
+    host : "ecko-it.iriscouch.com",
+    port : "5984",
+    db : "sample",
+    username : "test"
+  },
+  stages : {
+    qa : {
+      host : "ecko-it.iriscouch.com",
+      port : "5984",
+      db : "sampleqa",
+      username : "test"
     }
+  }
 }
-

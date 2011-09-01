@@ -10,6 +10,7 @@ scenario "index page", {
     }
     then "The title shown is meeting", {
         page.title.shouldBe "Sample Application"
+        $('.menu').jquery.click()
     }
 
 }

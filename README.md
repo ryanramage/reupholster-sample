@@ -1,15 +1,19 @@
 What Is This
 ================
 
-This is a baseline reupholster application.
+This is a template used by reupholster to generate a couchdb couchapp.
+For more information about using reupholster, see 
+
+http://reupholster.iriscouch.com/reupholster/_design/app/index.html
 
 
-What To Change On Fork
+
+What To Change 
 ======================
 
 reupholster.json  - change the couch, test-couch, and stages to match your flow
 
-_design-app.json - This becomes main main design document. Add shows, views, lists, filters, etc.
+app.js - This becomes main main design document. Add shows, views, lists, filters, etc.
 
 Folders
 =======
@@ -21,5 +25,10 @@ tests - BDD style tests that run in Firefox locally, and HTMLUnit on a CI server
 docs - Any couchdb docs you want to have available to the application. You can add additional design docs with this structure:
 docs/_design/app2.json
 docs/_design/app2/index.html
+
+
+
+
+
 
 
